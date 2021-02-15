@@ -13,6 +13,9 @@
 body {
   overscroll-behavior-x: none;
   overscroll-behavior-y: none;
+  background-color: #28231C;
+
+
 }
 
   header{
@@ -40,12 +43,16 @@ body {
   .sidenav li a{
     color: white;
   }
+  
   .tabs .indicator{
-      background-color: #B1A78D;
+      background-color: #d2cabf;
     }
     .tabs .tab a:focus, .tabs .tab a:focus.active{
       background: transparent;
     }
+  p{
+    color:#B1A78D;
+  }
 </style>
 </head>
 <body>
@@ -90,8 +97,8 @@ body {
         <img src="img/D40P5225.jpg" alt="" class="responsive-img materialboxed">
       </div>
       <div class="col s12 l6 offset-l1">
-        <h2 class=""style="color:#584633">Portraits</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h2 class=""style="color:#d2cabf">Portraits</h2>
+        <p style="color:#B1A78D;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div>
 
@@ -100,7 +107,7 @@ body {
         <img src="img/D40P5861.jpg" alt="" class="responsive-img materialboxed">
       </div>
       <div class="col s12 l6 pull-l5 right-align offset-l1 ">
-        <h2 class=""style="color:#584633">Cityscapes</h2>
+        <h2 class=""style="color:#d2cabf">Cityscapes</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div>
@@ -110,7 +117,7 @@ body {
         <img src="img/IMG_4174.jpg" alt="" class="responsive-img materialboxed">
       </div>
       <div class="col s12 l6 offset-l1">
-        <h2 class=""style="color:#584633">Nature</h2>
+        <h2 class=""style="color:#d2cabf">Nature</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div>
@@ -127,28 +134,28 @@ body {
   <section class="container section scrollspy" id="services">
     <div class="row">
       <div class="col s12 l4">
-        <h2 class=""style="color:#584633">What I do...</h2>
+        <h2 class=""style="color:#d2cabf">What I do...</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 
       </div>
       <div class="col s12 l6 offset-l2">
         <ul class="tabs">
-          <li class="tab col s6">
-            <a href="#photography" class=""style="color:#584633"> Photography</a>
+          <li class="tab col s6 "style="background-color:#28231C;">
+            <a href="#photography" class=""style="color:#d2cabf"> Photography</a>
           </li>
-          <li class="tab col s6">
-            <a href="#editing" class=""style="color:#584633"> Editing</a>
+          <li class="tab col s6 " style="background-color:#28231C;">
+            <a href="#editing" class=""style="color:#d2cabf"> Editing</a>
           </li>
         </ul>
         <div class="col s12" id="photography">
-          <p class="flow-text "style="color:#584633">Photography</p>
+          <p class="flow-text "style="color:#d2cabf">Photography</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 
         </div>
         <div class="col s12" id="editing">
-          <p class="flow-text "style="color:#584633">Editing</p>
+          <p class="flow-text "style="color:#d2cabf">Editing</p>
           <p>Nullam vitae fermentum quam. Curabitur tincidunt ullamcorper nunc, nec fringilla massa eleifend quis. </p>
           <p>Nullam vitae fermentum quam. Curabitur tincidunt ullamcorper nunc, nec fringilla massa eleifend quis. </p>
 
@@ -169,7 +176,7 @@ body {
     <div class="row">
       <div class="col s12 l5">
 
-      <h2 class=""style="color:#584633">Get in Touch</h2>
+      <h2 class=""style="color:#d2cabf">Get in Touch</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       <p>Nullam vitae fermentum quam. Curabitur tincidunt ullamcorper nunc, nec fringilla massa eleifend quis. </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -179,17 +186,18 @@ body {
     <div class="col s12 l5 offset-l2">
       <form action="">
         <div class="input-field">
-          <i class="material-icons prefix">email</i>
+          <i class="material-icons prefix white-text">email</i>
           <input type="email" name="" id="email">
           <label for="email">Your email</label>
 
         </div>
         <div class="input-field">
-          <i class="material-icons prefix">message</i>
+          <i class="material-icons prefix white-text">message</i>
           <textarea name="" id="message"  class="materialize-textarea"></textarea>
           <label for="message">Your message</label>
         </div>
         <div class="input-field">
+          <i class="material-icons prefix white-text">book_online</i>
           <input type="text" id="date" class="datepicker">
           <label for="date">choose a date you need me for</label>
         </div>
@@ -207,7 +215,7 @@ body {
           </p>
         </div>
         <div class="input-field center">
-          <a  class="btn  waves-effect waves-light"style="background-color:#584633">Submit</a>
+          <a  class="btn  waves-effect waves-light"style="background-color:#735C37; color:#ebe7e2;">Submit</a>
         </div>
       </form>
     </div>
