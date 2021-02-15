@@ -27,6 +27,12 @@ body {
 
     }
   }
+  @media only screen and (max-width: 600px) {
+    .parallax-container {
+        max-height: 200px;
+    }
+
+}
   .section{
     padding-top:4vw;
     padding-bottom:4vw;
@@ -52,10 +58,11 @@ body {
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
+
+
           <li><a href="#photos" >Photos</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
-          <!--        Socials Icons            -->
           <li><a href="#" class="tooltipped btn-floating btn-small amber lighten-3" data-tooltip="Instagram">
             <i class="fab fa-instagram"></i>
           </a></li>
@@ -71,7 +78,9 @@ body {
           <br>
           <li><a href="#photos" >Photos</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li></ul>
+          <li><a href="#contact">Contact</a></li>
+          <li> <a href="" class="btn-floating btn-small"></a></li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -151,7 +160,7 @@ body {
 
   <!-- parallax -->
   <div class="parallax-container">
-    <div class="parallax">
+    <div class="parallax" id="second">
       <img src="img/IMG_4182.jpg" alt="" class="responsive-img">
     </div>
   </div>
